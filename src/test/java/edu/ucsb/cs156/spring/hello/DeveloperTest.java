@@ -35,11 +35,11 @@ public class DeveloperTest {
         Team team = Developer.getTeam();
         assertEquals("f25-04" , team.getName());
         assertTrue(team.getMembers().contains("Ajay") ,"Team should contain Ajay");
-        assertTrue(team.getMembers().contains("Ryan") ,"Team should contain Ryan");
+        assertTrue(team.getMembers().contains("Ryan Lee") ,"Team should contain Ryan");
         assertTrue(team.getMembers().contains("Chiran") ,"Team should contain Chiran");
-        assertTrue(team.getMembers().contains("Dave") ,"Team should contain Dave");
-        assertTrue(team.getMembers().contains("Anthony") ,"Team should contain Anthony");
-        assertTrue(team.getMembers().contains("Max") ,"Team should contain Max");
+        assertTrue(team.getMembers().contains("Dave S") ,"Team should contain Dave");
+        assertTrue(team.getMembers().contains("Anthony Herbert") ,"Team should contain Anthony");
+        assertTrue(team.getMembers().contains("Max Lee") ,"Team should contain Max");
     }
 
 }
