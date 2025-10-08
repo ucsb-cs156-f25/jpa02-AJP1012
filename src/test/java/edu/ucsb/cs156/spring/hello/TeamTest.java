@@ -56,5 +56,13 @@ public class TeamTest {
 
     }
 
+    @Test
+    public void hashCode_returns_correctly() {
+            int result = team.hashCode();
+            int expectedResult = -1208227076;
+            assertEquals(expectedResult, result);
+
+    }
+
 
 }
