@@ -34,12 +34,12 @@ public class DeveloperTest {
     public void getTeam_returns_correct_team() {
         Team team = Developer.getTeam();
         assertEquals("f25-04" , team.getName());
-        assertTrue(team.getMembers().contains("CHIRAN") ,"Team should contain CHIRAN");
-        assertTrue(team.getMembers().contains("DAVE S") ,"Team should contain DAVE S");
-        assertTrue(team.getMembers().contains("RYAN LEE") ,"Team should contain RYAN LEE");
-        assertTrue(team.getMembers().contains("AJAY") ,"Team should contain AJAY");
-        assertTrue(team.getMembers().contains("ANTHONY HERBERT") ,"Team should contain ANTHONY HERBERT");
-        assertTrue(team.getMembers().contains("MAX LEE") ,"Team should contain MAX LEE");
+        assertTrue(team.getMembers().contains("Ajay"));
+        assertTrue(team.getMembers().contains("Chiran"));
+        assertTrue(team.getMembers().contains("Ryan"));
+        assertTrue(team.getMembers().contains("Anthony"));
+        assertTrue(team.getMembers().contains("Dave"));
+        assertTrue(team.getMembers().contains("Max"));
     }
 
 }
